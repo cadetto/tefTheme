@@ -13,11 +13,11 @@
     <div>
     <div class="main-nav">
         <?php echo get_custom_logo(); ?>
-        <?php 
-        wp_nav_menu( array( 
-            'theme_location' => 'tef-custom-menu', 
-            'container_class' => 'custom-menu' ) ); 
-            
+        <?php
+        wp_nav_menu( array(
+            'theme_location' => 'tef-custom-menu',
+            'container_class' => 'custom-menu' ) );
+
         ?>
         <div class="bars">
             <div class="line1"></div>
@@ -26,4 +26,3 @@
         </div>
     </div>
 
-         

@@ -63,7 +63,6 @@ a{
     width: 100%;
     color:var(--light);
     display:grid;
-    grid-template-columns: 150px 1fr;
     padding:1em 40px;
     text-align: center;
 }
@@ -79,8 +78,6 @@ a{
 
 .custom-menu{
     list-style:none;
-    display:flex;
-    align-items: center;
 }
 
 
@@ -103,7 +100,7 @@ a{
 .toggle .line3{
     transform: rotate(45deg) translate(-4px,-6px);
 }
-  
+
 
 .line2{
     margin: 5px 0;
@@ -180,10 +177,7 @@ a{
 
 .jumbotron h1{
     font-size: 2rem;
-    opacity:0;
     margin-bottom:20px;
-    animation:fadeIn 1s;
-    animation-delay:1s;
 
 }
 
@@ -206,11 +200,11 @@ a{
 #animated-svg path:nth-child(2){
     stroke-dasharray:525.2345581054688;
     stroke-dashoffset:525.2345581054688;
-    animation:line-anim 2s ease forwards 0.3s; 
+    animation:line-anim 2s ease forwards 0.3s;
 }
 
 #animated-svg path:nth-child(3){
-    stroke-dasharray:417.51605224609375; 
+    stroke-dasharray:417.51605224609375;
     stroke-dashoffset:417.51605224609375;
     animation:line-anim 2s ease forwards 0.6s;
 }

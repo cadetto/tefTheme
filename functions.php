@@ -19,12 +19,12 @@ function themename_custom_logo_setup() {
 
 function enqueue_main_scripts(){
     wp_enqueue_style(
-        'main_style', 
+        'main_style',
         get_template_directory_uri() . '/assets/css/tef-theme-main.css',
     );
 
     wp_enqueue_script(
-        'main_script', 
+        'main_script',
         get_template_directory_uri() . '/assets/js/tef-theme-main.js',
         array('jquery')
     );
@@ -66,6 +66,7 @@ function ms_setup() {
     add_image_size( 'slider', 100, 100, true );
 }
     add_action( 'after_setup_theme', 'ms_setup' );
+
 
 
 require_once get_template_directory() . '/inc/carousel-cpt.php';
