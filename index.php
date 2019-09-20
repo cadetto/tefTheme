@@ -34,27 +34,26 @@
 </section>
 
 <section class="about">
-    <div class="about1">
-        <img src="https://source.unsplash.com/random/700x400" alt="">
-        <div class="about-info">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quia tenetur, tempore magni nisi unde fugit incidunt illo maxime adipisci explicabo eveniet recusandae quo odit labore totam eligendi fuga iste aliquam corporis consequatur, cumque quam porro non. Facere rem rerum repellat debitis! Ipsam veniam officiis delectus deserunt necessitatibus sed obcaecati.
-        </div>
+    <div class="about-row">
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("sobre-nosotros-1") ) : ?>
+        <?php endif;?>
     </div>
 
-    <div class="about2">
-        <div class="about-info">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quia tenetur, tempore magni nisi unde fugit incidunt illo maxime adipisci explicabo eveniet recusandae quo odit labore totam eligendi fuga iste aliquam corporis consequatur, cumque quam porro non. Facere rem rerum repellat debitis! Ipsam veniam officiis delectus deserunt necessitatibus sed obcaecati.
-        </div>
-        <img src="https://source.unsplash.com/random/701x400" alt="">
+
+    <div class="about-row">
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("sobre-nosotros-2") ) : ?>
+        <?php endif;?>
     </div>
 
 
 </section>
 
 
+<h1 class="title">Nuestros clientes</h1>
+
 <section class="clientes-section">
 
-    <h1 class="title">Nuestros clientes</h1>
+
 
     <div class="clients">
         <?php

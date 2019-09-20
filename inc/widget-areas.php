@@ -20,10 +20,14 @@ function services_widget_init() {
 
     register_sidebar( array(
         'name'          => 'Sobre nosotros 1',
-        'before_widget' => '<div class="about1">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<p>',
-        'after_title'   => '</p>',
+        'before_widget' => '',
+        'after_widget'  => '',
+    ) );
+
+    register_sidebar( array(
+        'name'          => 'Sobre nosotros 2',
+        'before_widget' => '',
+        'after_widget'  => '',
     ) );
 
 }
