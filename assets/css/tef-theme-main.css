@@ -316,6 +316,7 @@ a{
 
 .slick-slide {
     text-align: center;
+    margin: 10px;
 }
 
 .slick-slide::before {
@@ -331,6 +332,14 @@ a{
     display: inline-block;
     height: 200px;
     width: 200px;
+}
+
+.slick-image{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin:0 auto;
 }
 
 @media (max-width:800px){

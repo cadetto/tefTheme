@@ -69,7 +69,10 @@
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'slider' );
                 ?>
                 <div class="slick-slide">
-                    <img src="<?php echo $url ?>" alt="">
+                    <div
+                        class="slick-image"
+                        style="background-image : url('<?php echo $url ?>')"
+                    ></div>
                 </div>
                 <?php
             endif;
