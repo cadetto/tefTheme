@@ -7,7 +7,7 @@
     <title>Tef Venezuela</title>
     <?php wp_head() ?>
 </head>
-<body>
+
 
 <div class="page-container">
     <div>
